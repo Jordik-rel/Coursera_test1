@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.container{
+    padding: 10px;
+}
+
+#chiken{
+    width: 25%;
+    height: 10%;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    float: right;
+    text-align: center;
+    padding: 2px 0px 2px 0px;
+    background-color: darksalmon;
+}
+#Beef{
+    width: 25%;
+    height: 10%;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    float: right;
+    text-align: center;
+    padding: 2px 0px 2px 0px;
+    background-color: rgb(187, 30, 30);
+}
+#sushi{
+    width: 25%;
+    height: 10%;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    float: right;
+    text-align: center;
+    padding: 2px 0px 2px 0px;
+    background-color: rgb(173, 173, 42);
+}
+div{
+    float: left;
+    margin-right: 10px;
+}
+.p1{
+    width: 32%;
+    height: 240px;
+    border: 1px solid black;
+    background-color: darkgray;
+}
+.p2{
+    width: 32%;
+    height: 240px;
+    border: 1px solid black;
+    background-color: darkgray;
+}
+.p3{
+    width: 32%;
+    height: 240px;
+    border: 1px solid black;
+    background-color: darkgray;
+}
+.hello{
+    padding: 12px;
+}
+@media (max-width: 767px){
+    .p1{
+        width: 80%;
+        height: 405px;
+        margin-bottom: 10px;
+        font-size: 110%;
+    }
+    .p2{
+        width: 80%;
+        height: 405px;
+        margin-bottom: 10px;
+        font-size: 110%;
+    }
+    .p3{
+        width: 80%;
+        height: 405px;
+        margin-bottom: 10px;
+        font-size: 110%;
+    }
+    #sushi{
+        width: 22%;
+        height: 8%;
+        padding: 2px 0px 2px 0px;
+    }
+    #Beef{
+        width: 22%;
+        height: 8%;
+        padding: 2px 0px 2px 0px;
+    }
+    #chiken{
+        width: 22%;
+        height: 8%;
+        padding: 2px 0px 2px 0px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .p1{
+        width: 45%;
+        height: 288px;
+        margin-bottom: 10px;
+        font-size: 100%;
+    }
+    .p2{
+        width: 45%;
+        height: 288px;
+        margin-bottom: 10px; 
+        font-size: 100%;
+    }
+    .p3{
+        width: 91%;
+        height: 180px;
+        margin-bottom: 10px;
+        font-size: 110%;
+    }
+    #sushi{
+        width: 15%;
+        height: 15%;
+        padding: 2px 0px 2px 0px;
+    }
+}
+@media (min-width: 992px){
+    .p1{
+        width: 32%;
+        height: 310px;
+    }
+    .p2{
+        width: 32%;
+        height: 310px;
+    }
+    .p3{
+        width: 32%;
+        height: 310px;
+    }
+}
